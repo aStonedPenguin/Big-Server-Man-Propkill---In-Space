@@ -1,0 +1,6 @@
+"propkill"
+{
+	"base"			"sandbox"
+	"title"  		"propkill"
+   	"menusystem"	"1"
+}

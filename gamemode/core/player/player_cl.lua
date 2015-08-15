@@ -1,0 +1,5 @@
+net.Receive('pk.Notify', function()
+	notification.AddLegacy(net.ReadString(), net.ReadUInt(4), 4)
+	MsgC(Color(0,200,0), '[Notification] ', Color(200,200,200), msg .. '\n')
+	surface.PlaySound('buttons/lightswitch2.wav')
+end)
